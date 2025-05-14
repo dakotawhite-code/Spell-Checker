@@ -1,6 +1,6 @@
 //This belongs to the area of reproducing the spell checker
-public class Levenshtein {
-    public static int LevenshteinDistance(String word1, String word2) {
+public class levenshtein {
+    public static int Distance(String word1, String word2) {
         int x = word1.length();
         int y = word2.length();
         if (x > y) {

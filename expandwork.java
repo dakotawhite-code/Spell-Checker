@@ -2,10 +2,10 @@
 import java.io.*;
 import java.util.*;
 
-public class implement {
+public class expandwork {
     public static void main(String[] args) {
         try {
-            SpellChecker checker = new SpellChecker("words.txt");
+            spell checker = new spell("words.txt");
             BufferedReader reader = new BufferedReader(new FileReader("essay.txt"));
             String line;
             int lines = 1;

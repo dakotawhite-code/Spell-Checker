@@ -1,10 +1,10 @@
 //This belongs to the area of reproducing the spell checker with the words.txt dictionary
 import java.io.*;
-import java.util.*;public class Main {
-
+import java.util.*;
+public class main {
     public static void main(String[] args) {
         try {
-            SpellChecker checker = new SpellChecker("words.txt");
+            spell checker = new spell("words.txt");
             Scanner scanner = new Scanner(System.in);
             System.out.print("Please enter a word to spellcheck: ");
             String input = scanner.nextLine();
